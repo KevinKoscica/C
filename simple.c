@@ -3,6 +3,8 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 /*Written by Kevin Koscica for CSIT 345 Project 1.
+This is the first program I have writtend in C in order to dive into kernel programming. It is simply registering a list of people with
+their birthdays.
 
 /* This function is called when the module is loaded. */
 struct birthday{
@@ -75,5 +77,5 @@ module_exit( simple_exit );
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Simple Module");
-MODULE_AUTHOR("SGG");
+MODULE_AUTHOR("KJK");
 
